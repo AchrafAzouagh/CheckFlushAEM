@@ -1,0 +1,21 @@
+1647435590826	geckodriver	INFO	Listening on 127.0.0.1:63871
+1647435593876	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\aazouagh\\AppData\\Local\\Temp\\rust_mozprofileCIKKBu"
+1647435594442	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\aazouagh\\AppData\\Local\\Temp\\rust_mozprofileCIKKBu\\search.json.mozlz4", (void 0)))
+1647435596886	Marionette	INFO	Listening on port 63880
+1647435597073	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "http://aem-author-64-preprod-private1.aws.dmpa-noprod.myengie.com:4502"
+1647435602956	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:239:19
+TimedPromise@chrome://remote/content/marionette/sync.js:224:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "http://aem-author-64-preprod-private1.aws.dmpa-noprod.myengie.com:4502"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+1647435618410	Marionette	INFO	Stopped listening on port 63880
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+

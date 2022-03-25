@@ -1,0 +1,10 @@
+1647346300160	geckodriver	INFO	Listening on 127.0.0.1:57540
+1647346303188	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\aazouagh\\AppData\\Local\\Temp\\rust_mozprofileUaC73Q"
+1647346303769	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\aazouagh\\AppData\\Local\\Temp\\rust_mozprofileUaC73Q\\search.json.mozlz4", (void 0)))
+1647346307041	Marionette	INFO	Listening on port 57548
+1647346307418	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "http://aem-author-64-preprod-private1.aws.dmpa-noprod.myengie.com:4502"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "http://aem-author-64-preprod-private1.aws.dmpa-noprod.myengie.com:4502"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+1647346311300	Marionette	INFO	Stopped listening on port 57548
